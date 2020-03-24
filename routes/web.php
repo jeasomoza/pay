@@ -18,9 +18,8 @@ Route::get('/', function () {
 });
 
 Auth::routes();
-
 Route::get('/home', 'HomeController@index')->name('home');
 
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
+Route::post('/cobros/pago','PaymentController@pagos')->name('pagos');
+Route::get('/cobros/aprobacion','PaymentController@aprobacion')->name('aprobacion');
+Route::get('/cobros/cancelacion','PaymentController@cancelacion')->name('cancelacion');

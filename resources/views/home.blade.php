@@ -14,7 +14,7 @@
                         </div>
                     @endif --}}
 
-                    <form action="#" method="POST" id="paymentForm">
+                    <form action="{{route('pagos')}}" method="POST" id="paymentForm">
                         @csrf
                         <div class="col-auto">
                             <lable>Cuanto quieres pagar?</lable>

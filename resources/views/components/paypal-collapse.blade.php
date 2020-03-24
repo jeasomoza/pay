@@ -1,0 +1,1 @@
+<small class="">Seras dirigido a la pagina de <b>PayPal checkout</b></small>
